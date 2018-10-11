@@ -1,0 +1,20 @@
+[
+    {
+        "id":1,
+        "service_group":1,
+        "service_name":"Service One",
+        "service_time": 15
+    },
+    {
+        "id":2,
+        "service_group":1,
+        "service_name":"Service Two",
+        "service_time": 25
+    },
+    {
+        "id":3,
+        "service_group":1,
+        "service_name":"Service Thre",
+        "service_time": 180
+    }
+]
