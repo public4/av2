@@ -3,18 +3,42 @@
         "id":1,
         "service_group":1,
         "service_name":"Service One",
-        "service_time": 15
+        "service_time": 15,
+        "service_price": 150
     },
     {
         "id":2,
         "service_group":1,
         "service_name":"Service Two",
-        "service_time": 25
+        "service_time": 25,
+        "service_price": 150
     },
     {
         "id":3,
         "service_group":1,
         "service_name":"Service Thre",
-        "service_time": 180
+        "service_time": 180,
+        "service_price": 150
+    },
+    {
+        "id":4,
+        "service_group":1,
+        "service_name":"Service 4",
+        "service_time": 15,
+        "service_price": 150
+    },
+    {
+        "id":5,
+        "service_group":1,
+        "service_name":"Service 5",
+        "service_time": 25,
+        "service_price": 150
+    },
+    {
+        "id":6,
+        "service_group":1,
+        "service_name":"Service 6",
+        "service_time": 180,
+        "service_price": 150
     }
 ]

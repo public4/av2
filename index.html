@@ -68,8 +68,8 @@
                 <span data-feather="plus-circle"></span>
             </a>
             </h6>
-            <ul class="nav flex-column mb-2">
-            <li class="nav-item">
+            <ul class="nav flex-column mb-2" id="servicelist">
+            <!-- <li class="nav-item">
                 <a class="nav-link" href="#">
                 <span data-feather="file-text"></span>
                 Current month
@@ -92,7 +92,7 @@
                 <span data-feather="file-text"></span>
                 Year-end sale
                 </a>
-            </li>
+            </li> -->
             </ul>
         </div>
         </nav>
@@ -102,8 +102,8 @@
             <h1 class="h2">Dashboard</h1>
             <div class="btn-toolbar mb-2 mb-md-0">
                 <div class="btn-group mr-2">
-                    <button class="btn btn-sm btn-outline-secondary" onClick="getJ()">Get JSON</button>
-                    <button class="btn btn-sm btn-outline-secondary" onClick="status()">Show services</button>
+                    <button class="btn btn-sm btn-outline-secondary" onClick="showServices()">Show Services</button>
+                    <button class="btn btn-sm btn-outline-secondary" onClick="showSelectedServices()">Show SelectedServicest</button>
                     <button class="btn btn-sm btn-outline-secondary" onClick="showService(1)">Show service 1</button>
                 </div>
                 <div class="dropdown">
@@ -123,26 +123,26 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="https://placehold.it/80x80" alt="Card image cap">
+                    <img class="card-img-top" src="https://placehold.it/80x20" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <p class="card-text">Some quick example</p>
                     </div>
                     <ul class="list-group list-group-flush">
-                        <li class="list-group-item">Cras justo odio</li>
+                        <li class="list-group-item">descr</li>
                     </ul>
                     <div class="card-body">
                         <a href="#" class="card-link" onClick="addService(1)">Выбрать</a>
                     </div>
                 </div>
                 <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="https://placehold.it/80x80" alt="Card image cap">
+                        <img class="card-img-top" src="https://placehold.it/80x20" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <p class="card-text">Some quick example</p>
                         </div>
                         <ul class="list-group list-group-flush">
-                            <li class="list-group-item">Cras justo odio</li>
+                            <li class="list-group-item">descr</li>
                         </ul>
                         <div class="card-body">
                             <a href="#" class="card-link" onClick="addService(2)">Выбрать</a>
@@ -153,7 +153,7 @@
         </main>
     </div>
 </div>
-  
+ 
 <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 <script>window.jQuery || document.write('<script src="https://code.jquery.com/jquery-3.2.1.min.js"><\/script>')</script>
 <script src="https://unpkg.com/popper.js/dist/umd/popper.min.js"></script>
